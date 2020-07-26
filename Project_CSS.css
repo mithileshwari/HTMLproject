@@ -1,0 +1,43 @@
+#header
+{
+  background-image: url('Header_Background.png');
+   height: 600px;
+   background-size: cover;
+}
+
+.navbar {
+  width :  100% ;
+  padding:  20px ;
+  position:  fixed;
+  top: 0px ;
+  transition:  0.5s ;
+}
+.navbar ul li a {
+  list-style-type: none ;
+  display: inline-block;
+  padding:  10px 50px  ;
+  color : white ;
+  font-size : 15px ;
+  font-family: sans-serif;
+  cursor: pointer;
+
+}
+.SHADOW{
+filter: drop-shadow(10px 10px 10px black);
+}
+.FONT{
+    font-family: "Brush Script MT", cursive;
+    color: #ED2939; 
+}
+.rotate90 {
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+.navbar ul li:hover {
+  background: black ;
+  border-radius: 10px ;
+  transition: 0.5s ;
+}
